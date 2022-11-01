@@ -1,0 +1,41 @@
+body{
+    background-color: white;
+}
+.kat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, -50%);
+    border: 1px solid #c6c6c6;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.img{
+    background-image: url("Cat.jpg");
+    background-position: 110% 22%;
+    width: 100%;
+    padding-top: 60%;
+    background-size: cover;
+    /* Added border radius after looking at solution */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.description {
+    background-color: #EEEEEE;
+    padding: 5px 20px;
+}
+
+hr{
+    margin: 30px -20px 20px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
+
+p {
+    inline-size: 400px;
+    overflow-wrap: break-word;
+}
