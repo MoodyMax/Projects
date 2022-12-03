@@ -21,7 +21,6 @@ form.addEventListener('submit', function(e){
     e.preventDefault();
     let newTodo = document.createElement('li');
     newTodo.innerText = input.value;
-    //test
     newTodo.isCompleted = false;
     newTodo.classList.add('todo'); 
     input.value = '';
@@ -39,8 +38,6 @@ form.addEventListener('submit', function(e){
 // Doulbe Click: toggles .completed class on li's and runs clearSelection function below
 ul.addEventListener('click', function(e){
     if(e.target.tagName === "BUTTON"){
-        // let newTodo = e.target.parentElement.document.createElement("li");
-        // console.log(savedTodos);
         console.log(e.target.parentElement.innerText);
         savedTodos.forEach((element, index) => {
             if(element.task === e.target.parentElement.innerText){
@@ -69,14 +66,6 @@ ul.addEventListener('dblclick', function(e){
         e.target.classList.toggle('completed');
     }
 
-    // (CAN'T GET IT TO WORK) breaks for duplicates - another option is to have dynamic IDs
-
-    // for (let i = 0; i < savedTodos.length; i++) {
-    //     if (savedTodos[i].task ===  e.target.innerText) {
-    //       savedTodos[i].isCompleted = !savedTodos[i].isCompleted;
-    //       localStorage.setItem("todos", JSON.stringify(savedTodos));
-    //     }
-    // }
 })
 
 //Prevents Blue selection of Text on DoubleClick: IGNORE
