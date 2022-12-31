@@ -1,0 +1,11 @@
+1. The man command is the same as the --help command and they both give intrustions on what ohter commands do as well as all the flags associated with that command
+2.-l: "use a long lsiting format". -a: all, Lists even the hidden items
+3. Option/Alt + left/right
+4. Command/Control + e
+5. Command/Control + a 
+6. Command/Control + w
+7. A shell is within a terminal. Kinda like the os of the terminal
+8. The absolute path is the entire full path starting from ~
+9. The path starting from current folder location
+10. Modifiers to commands. Examples: ls -l ls -a rm -r
+11.-r removes folders regardless of there being content within. -f 'ignore nonexistent files and arguments, never prompt'
