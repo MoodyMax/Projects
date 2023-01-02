@@ -1,0 +1,6 @@
+1. git branch [branch name]
+2. Fast forward Merge is when git knows the order of commits chronologically and can 'put' one set on top the other.
+   Recersive Merge is when git uses an algorith to merge branches when the fast-forward merge won't suffice.
+3. git checkout [branch name]
+4. git branch -d [branch name]
+5. If changes were made on both branches before the merge. Git doesn't know which to keep and which to overwrite.
