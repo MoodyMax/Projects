@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How the Web Works</title>
+</head>
+<body>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+<!-- 1. What is HTTP?:
+    HTTP is a protocal that stands for Hypertext Transfer Protocal and its how browsers and servers communicate
+-->
+<!-- 2. What is a URL?: 
+    Uniform Resource Locators. It is an address that points to a resource on the Web. It is how browsers retrieve info from a page. URLs are madde of of differernt parts 
+-->
+<!-- 3. What is DNS?: 
+    A hieerarchical and decentralized naming system for Internet connected resources. DNS helps to translate domain names theri numeric IP address
+-->
+<!-- 4. What is Query String?: 
+    They provide “extra information” — search terms, info from forms,etc. The additional info might be used by the server to change the page's contents
+-->
+<!-- 5. What are two HTTP verbs and how are they different?: Get and Post are the two methods. 
+    Get is used to when you don't want to change server data. Typically used for search bars and clicking links.
+
+    Post requests are always form submissions. An example would be if you wanted to add to a comment section.
+-->
+<!-- 6. What is an HTTP request?:
+    Your browser makes a request to a server whenever it is pointed to a webpage on that server. The request is almost always a GET request and it contains the exact URL you want.
+-->
+<!-- 7. What is an HTTP response?
+    This is when the server responfs to your request and sends the exact HTML text for that page.
+-->
+<!-- 8. What is an HTTP header?:
+    Headers contain a range of information and they are slightly different between Request and Responses. Hey contain the hostname, date, language, cookies, cache info
+-->
+<!-- 9. What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?:
+    The URL is broken up into 5 parts: The Protocal, Hostname, Port(Optional), Resource, and Query. Your browser uses this info to send a request to the server that the webpage is hosted on. Using DNS, your browser gets the IP address from the URL. The server then does internal work to get the page you want and sends the response with the HTML. The browser makes a DOM from that HTML and also gets any addition resources needed. The browser has to make seperate HTTP requests for those resources and gets different responses from the server for each.
+-->
